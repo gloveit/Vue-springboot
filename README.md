@@ -1,10 +1,6 @@
-# y
+# Vue+Springboot
 
-> y
 
-## Build Setup
-
-``` bash
 # install dependencies
 npm install
 
