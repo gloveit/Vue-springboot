@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'fontLED';
+  src:url("font/UnidreamLED.ttf?12760324#fontLED");
+  font-weight: normal;
+  font-style: normal;
+}
+.ivu-layout{
+  height: 100%;
+}
+.content{
+  height: 100%;
+}
+.chart{
+  height: calc(100% - 90px);
+  width: 98%;
+  margin-left: 15px;
+}
+.body{
+  height: 80px;
+  margin-top: 10px;
+  width: 98%;
+  margin-left: 15px;
+  text-align: center;
+}
+.body-l{
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+}
+.block{
+  display:block;
+  color:#7ed2ee;
+}
+.color{
+  color: #ee8629;
+  font-size: 36px;
+  font-family: 'fontLED';
+}
+.gas{
+  text-align: center;
+  height: 60%;
+}
+.gas-left{
+  float: left;
+  width: 50%;
+  height: 96%;
+}
+.gas-right{
+  float: right;
+  width: 50%;
+  height: 96%;
+}
+.Cline{
+  text-align: center;
+  height: 40%;
+}

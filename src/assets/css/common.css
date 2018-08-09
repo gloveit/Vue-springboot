@@ -1,0 +1,85 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.logo{
+  /* position: absolute; */
+  width: 390px;
+  height: 90px;
+  margin-top: 3%;
+  margin-left: -65%;
+}
+.loginContent{
+  position: fixed;
+  top: 25%;
+  left: 67%;
+  background-color: #fff;
+  width: 336px;
+  height: 408px;
+  border-radius:3px;
+}
+.user{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #3881b1;
+  text-shadow:2px 2px 7px #368be3;
+}
+.input{
+  text-align: center;
+  margin-top: 40px;
+}
+.input input{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  padding-left: 10px;
+}
+#userName::-webkit-input-placeholder{
+  color: #ccc;
+}
+#password::-webkit-input-placeholder{
+  color: #ccc;
+}
+.login{
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.save{
+  position: relative;
+  width:250px;
+  height: 45px;
+  background-color: #5696f5;
+  display: inline-block;
+  border: 2px solid #448abe;
+  border-radius:5px;
+  text-align: center;
+  color:#fff;
+  font-size: 18px;
+  line-height: 42px;
+}
+.userName{
+  position: relative;
+}
+.icon-yonghu{
+  position: absolute;
+  left: 260px;
+  top: 15px;
+}
+.password{
+  position: relative;
+}
+.icon-mima{
+  position: absolute;
+  left: 260px;
+  top: 15px;
+}
