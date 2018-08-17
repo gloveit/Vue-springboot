@@ -20,7 +20,7 @@ module.exports = {
     //   }
     proxyTable: {
       '/': {
-          target: 'http://10.30.2.111:8082',
+          target: '',
           changeOrigin: true,
           pathRewrite: {
               '^/': ''
